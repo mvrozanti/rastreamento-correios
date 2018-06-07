@@ -3,7 +3,8 @@ var page = require('webpage').create(),
     server = 'http://www2.correios.com.br/sistemas/rastreamento/resultado.cfm?',
     data = 'acao=track&objetos=ID_OBJETO&btnPesq=Buscar';
 page.customHeaders = {
-    "Referer" : "http://www2.correios.com.br/sistemas/rastreamento/"
+    "Referer" : "http://www2.correios.com.br/sistemas/rastreamento/",
+    "User-Agent":"Mozilla/5.0 (X11; Linux x86_64; rv:56.0) Gecko/20100101 Firefox/56.0"
 }
 
 page.open(server, 'post', data, function (status) {
