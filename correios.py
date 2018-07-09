@@ -14,7 +14,6 @@ newest_status = bs.find(lambda tag: tag.name == 'div' \
         and tag.get('class')[0] == 'highlightSRO')
 
 history = bs.find(lambda tag: tag.name == 'table').find_all(lambda tag: tag.name == 'tr')
-history.reverse() # ordenar cronologicamente (no site esta de cabeca pra baixo, eu diria)
 
 if None not in [newest_status,history]: 
     print(newest_status.text.replace('\n\n\n','\n').replace('\n\n','\n'))
