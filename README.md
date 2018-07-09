@@ -1,7 +1,40 @@
 # rastreamento-correios
 Curta implementação para checar o estado de entregas postais no território brasileiro
 
-# Dependências
+# Instalação:
 
-- `sudo apt-get install phantomjs`  
-- `sudo apt-get install xpath`
+`git clone https://github.com/mvrozanti/rastreamento-correios`
+
+`cd rastreamento-correios`
+
+`pip install --user -r requirements.txt`
+
+`sudo apt-get install phantomjs`
+
+# Uso: 
+
+`./rastrear RL804101591CN`
+
+```
+Objeto encaminhado
+05/07/2018 10:49 BRASIL / BR 
+
+
+05/07/2018 
+10:49       
+CHINA / CN
+Objeto encaminhado 
+ 	
+de 	País 
+em 	CHINA / CN				
+para 	País				
+em 	BRASIL / BR
+
+
+04/07/2018 
+16:39       
+CHINA / CN
+Objeto postado 
+Acesse o ambiente Minhas Importações
+
+```
