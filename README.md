@@ -16,6 +16,7 @@ Curta implementação para checar o estado de entregas postais no território br
 `./rastrear RL804101591CN`
 
 ```
+
 Objeto encaminhado
 05/07/2018 10:49 BRASIL / BR 
 
