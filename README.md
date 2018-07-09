@@ -13,7 +13,7 @@ Curta implementação para checar o estado de entregas postais no território br
 
 # Uso: 
 
-`./rastrear RL804101591CN`
+`./rastrear RL804101591CN # codigo de rastreamento ficticio`
 
 ```
 
