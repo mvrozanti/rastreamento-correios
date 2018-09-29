@@ -12,6 +12,6 @@ script_dir="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 cd "$script_dir"
 cat correios.js | sed -e 's/ID_OBJETO/'$codigo_de_rastreamento'/g' > correios2.js
 content="`phantomjs correios2.js`"
-./correios.py "$content"
+./parse.py "$content"
 rm correios2.js
 cd "$call_dir"
