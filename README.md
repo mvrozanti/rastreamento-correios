@@ -9,7 +9,8 @@ Curta implementação para checar o estado de entregas postais no território br
 
 `pip install --user -r requirements.txt`
 
-`sudo apt-get install phantomjs`
+`npm i -g phantomjs`
+
 
 # Uso: 
 
